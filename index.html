@@ -3,24 +3,48 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio cyber de SnwStrm1. Avant-vente cyber, CTI, OSINT et projets techniques.">
-  <title>SnwStrm1 · Portfolio cyber</title>
+  <meta name="description" content="Portfolio cybersécurité de Sonia O. (SnwStrm1). Avant-vente cyber, CTI, OSINT et projets techniques.">
+  <title>Sonia O. | Portfolio cybersécurité</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header wrap">
-    <a class="brand" href="index.html">SnwStrm1</a>
+    <a class="brand" href="index.html">Sonia O.</a>
     <nav aria-label="Navigation principale">
-      <a href="#avant-vente">Avant-vente</a><a href="#write-ups">CTI &amp; OSINT</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#avant-vente">Avant-vente</a>
+      <a href="#write-ups">CTI &amp; OSINT</a>
       <a href="#projets">Projets</a>
       <a href="https://github.com/SnwStrm1">GitHub ↗</a>
     </nav>
   </header>
   <main class="wrap">
     <section class="intro" aria-labelledby="intro-title">
-      <h1 id="intro-title">Portfolio cybersécurité</h1>
-      <p>Je suis en bachelor cybersécurité après avoir travaillé dans la vente et le conseil. L’avant-vente cyber m’intéresse parce que j’aime comprendre les besoins d’un client et lui expliquer ce qu’une solution peut lui apporter. Côté technique, je m’intéresse à la détection et à la CTI, et je pratique l’OSINT en CTF.</p>
-      <a class="cta" href="#avant-vente">Découvrir mes travaux</a>
+      <h1 id="intro-title">Sonia O.</h1>
+      <p class="subtitle">Étudiante en cybersécurité</p>
+      <p>En bachelor à Oteria, je m’intéresse au renseignement sur les cybermenaces (CTI), à l’OSINT et à l’avant-vente de solutions de détection. Ce que j’aime, c’est remonter une piste, comprendre ce qu’elle révèle et l’expliquer clairement.</p>
+      <div class="intro-links">
+        <a class="cta" href="write-ups/bpifrance-osint.html">Lire le write-up Bpifrance</a>
+        <a class="intro-link" href="#avant-vente">Voir le cas avant-vente</a>
+      </div>
+    </section>
+
+    <section class="section" id="parcours" aria-labelledby="parcours-title">
+      <h2 id="parcours-title">Parcours</h2>
+      <dl class="path">
+        <div>
+          <dt>Cybersécurité</dt>
+          <dd>En bachelor à Oteria, je pratique l’OSINT en CTF et je travaille sur des exercices Linux et réseau.</dd>
+        </div>
+        <div>
+          <dt>Développement web</dt>
+          <dd>Mon diplôme de développeuse web et web mobile m’a donné des bases en JavaScript, en bases de données et en développement côté serveur.</dd>
+        </div>
+        <div>
+          <dt>Vente et conseil</dt>
+          <dd>J’ai appris à poser des questions pour cerner un besoin et à expliquer les options. C’est ce que j’ai envie de retrouver dans l’avant-vente cyber.</dd>
+        </div>
+      </dl>
     </section>
 
     <section class="section" id="avant-vente" aria-labelledby="avant-vente-title">
@@ -35,14 +59,14 @@
     <section class="section" id="write-ups" aria-labelledby="write-ups-title">
       <h2 id="write-ups-title">CTI &amp; OSINT</h2>
       <article class="entry">
-        <p class="label">CTI · Projet prévu</p>
-        <h3>D’une campagne documentée à une piste de détection</h3>
-        <p>Je veux partir d’un rapport public, recouper les éléments disponibles et expliquer quelles traces chercher dans des logs.</p>
-      </article>
-      <article class="entry">
         <p class="label">OSINT · CTF Bpifrance</p>
         <h3><a href="write-ups/bpifrance-osint.html">Retrouver une chaîne YouTube à partir de plusieurs noms</a></h3>
         <p>Une recherche par expression exacte m’a permis de retrouver une chaîne et un indice pour le flag.</p>
+      </article>
+      <article class="entry">
+        <p class="label">CTI · Projet prévu</p>
+        <h3>D’une campagne documentée à une piste de détection</h3>
+        <p>Je veux partir d’un rapport public, recouper les éléments disponibles et expliquer quelles traces chercher dans des logs.</p>
       </article>
     </section>
 
