@@ -11,7 +11,7 @@ Relis le retour Bpifrance dans tes mots. Le texte est un brouillon de mémoire. 
 ## 2. Expliquer ton code
 
 - index.html contient la page d’accueil. nav regroupe les liens, section regroupe une rubrique et article contient un travail qui peut se lire seul.
-- href="#write-ups" amène le navigateur à l’élément id="write-ups". Sur la page du CTF, ../#write-ups remonte au dossier parent et revient à cette rubrique.
+- href="#write-ups" amène le navigateur à l’élément id="write-ups". Sur la page du CTF, ../index.html#write-ups remonte au dossier parent et revient à cette rubrique.
 - style.css donne aux deux pages les mêmes couleurs et espacements. :root contient les couleurs réutilisées. .wrap borne la largeur du contenu. flex-wrap permet aux liens de revenir à la ligne quand l’écran rétrécit.
 - Les chemins relatifs continuent de fonctionner quand GitHub sert le site sous /cyber-portfolio/. ../style.css remonte d’un dossier depuis un write-up pour retrouver la feuille de style.
 
@@ -36,7 +36,17 @@ La carte Security Toolkit présente le prototype. Pour approfondir, prends le mo
 
 Pour ajouter une deuxième carte, duplique l’article de la rubrique Projets dans index.html. Donne-lui un titre descriptif et une phrase sur ce que tu as fait. Quand tu auras un premier travail CTI à montrer, pars d’un rapport public sur une campagne et explique ce que tu as extrait des sources, ce que tu as recoupé et ce qui reste incertain. Cite tes sources.
 
-## 5. Publier sur GitHub Pages
+## 5. Construire le cas avant-vente Novatech
+
+Novatech est une PME fictive de 150 salariés. Commence par cinq questions de découverte client sur le parc, les outils existants, le traitement des alertes, le budget et le risque prioritaire. Écris les réponses que tu imagines pour le scénario et présente-les comme des hypothèses.
+
+Compare EDR, XDR et SIEM en fonction de ces réponses. Choisis une approche, explique ce qui motive ton choix et prépare une présentation de trois minutes pour une direction non technique. Ajoute un schéma simple et, quand le dossier est prêt, crée sa page sur le modèle du write-up puis ajoute le lien sur l’accueil.
+
+Pour le projet CTI, garde le rapport source et une trace de tes recoupements. Si tu proposes une piste de détection, précise les logs nécessaires et indique si tu as pu la tester dans un lab.
+
+## 6. Publier sur GitHub Pages
+
+Si Pages est déjà configuré, copie les fichiers HTML et CSS de cette version dans le dépôt existant, puis vérifie le rendu en ouvrant index.html. Fais un commit et pousse sur la branche qui publie le site.
 
 1. Ouvre ton dépôt existant cyber-portfolio et repère sa branche principale. Place index.html, style.css et le dossier write-ups à côté du README. Garde ce guide à portée de main pour les prochaines modifications.
 2. Fais un commit, par exemple « Ajouter la première version du portfolio ». Dans GitHub, ouvre Settings → Pages.
